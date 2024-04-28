@@ -31,8 +31,8 @@ vim.opt.timeoutlen = 300
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
-vim.opt.list = true
-vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+--vim.opt.list = true
+--vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 vim.opt.inccommand = "split"
 
@@ -40,10 +40,10 @@ vim.opt.cursorline = true
 
 vim.opt.scrolloff = 10
 
--- vim.opt.tabstop = 2 -- spaces for tabs
--- vim.opt.shiftwidth = 2 -- space for indent width
--- vim.opt.expandtab = true -- expand tab to spaces
--- vim.opt.autoindent = true -- copy indent from current line when starting new line
+vim.opt.tabstop = 2 -- spaces for tabs
+vim.opt.shiftwidth = 2 -- space for indent width
+vim.opt.expandtab = true -- expand tab to spaces
+vim.opt.autoindent = true -- copy indent from current line when starting new line
 
 vim.opt.wrap = false
 
